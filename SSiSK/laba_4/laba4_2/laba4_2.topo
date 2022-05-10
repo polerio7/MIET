@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.3.00.100">
+    <devices>
+        <dev id="101A0762-0BAB-4f7e-931B-C16CD309AF7F" name="AR1" poe="0" model="AR2240" settings="" system_mac="00-E0-FC-D7-44-C1" com_port="2000" bootmode="0" cx="404.000000" cy="312.000000" edit_left="431" edit_top="366">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="4FEB4CD4-72D5-4587-BC7E-299714372EFC" name="AR2" poe="0" model="AR2240" settings="" system_mac="00-E0-FC-C6-5C-22" com_port="2001" bootmode="0" cx="486.000000" cy="181.000000" edit_left="513" edit_top="235">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="20F445A5-6825-444c-AA8A-E0E1BFBFEC4D" name="AR3" poe="0" model="AR2240" settings="" system_mac="00-E0-FC-B3-15-3E" com_port="2002" bootmode="0" cx="580.000000" cy="308.000000" edit_left="607" edit_top="362">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="101A0762-0BAB-4f7e-931B-C16CD309AF7F" destDeviceID="4FEB4CD4-72D5-4587-BC7E-299714372EFC">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="1" srcBoundRect_X="453.912476" srcBoundRect_Y="302.395935" srcOffset_X="-64.000000" srcOffset_Y="-10.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="490.087524" tarBoundRect_Y="244.604050" tarOffset_X="-60.000000" tarOffset_Y="-15.000000" />
+        </line>
+        <line srcDeviceID="4FEB4CD4-72D5-4587-BC7E-299714372EFC" destDeviceID="20F445A5-6825-444c-AA8A-E0E1BFBFEC4D">
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="1" srcBoundRect_X="538.691101" srcBoundRect_Y="242.710312" srcOffset_X="11.000000" srcOffset_Y="-4.000000" tarIndex="1" tarBoundRectIsMoved="1" tarBoundRect_X="581.308899" tarBoundRect_Y="300.289703" tarOffset_X="15.000000" tarOffset_Y="-10.000000" />
+        </line>
+    </lines>
+    <shapes />
+    <txttips>
+        <txttip left="423" top="395" right="472" bottom="412" content="妞抖我快扶找" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="569" top="388" right="671" bottom="405" content="Telnet 妊快把志快把" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+    </txttips>
+</topo>
